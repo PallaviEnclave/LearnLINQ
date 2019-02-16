@@ -24,7 +24,7 @@ namespace LearnLINQ
             if (input.Equals(rev,StringComparison.OrdinalIgnoreCase))
                 Console.WriteLine("Input string " + input + " is a palindrome");
             else
-                Console.WriteLine("Not a palindrome");
+                Console.WriteLine("Input string " + input + " is Not a palindrome");
         }
 
         public static void CheckStringPalindromeWithoutReverseFunction(string input)
@@ -41,7 +41,7 @@ namespace LearnLINQ
             if (flag)
                 Console.WriteLine("Input string " + input + " is a palindrome");
             else
-                Console.WriteLine("Not a palindrome");
+                Console.WriteLine("Input string " + input + " is Not a palindrome");
         }
     }
 }
